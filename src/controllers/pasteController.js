@@ -9,7 +9,7 @@ function getNow(req) {
   return new Date();
 }
 
-const BASE_URL = process.env.FRONTEND_URL || "http://localhost:5173";
+const BASE_URL = process.env.FRONTEND_URL;
 
 // CREATE paste
 export const createPaste = async (req, res) => {
